@@ -18,7 +18,6 @@ body {
     grid-column: 1;
     grid-row: 1;
     width: 20px;
-    font-family: 'Spartan', sans-serif;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
 }
