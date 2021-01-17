@@ -1,40 +1,41 @@
-@import url(https://fonts.googleapis.com/css?family=Spartan);
 
 body {
     background-color:white;
     font-family: 'Spartan', sans-serif;
   }
+.h1 {
+    grid-column: 2;
+    grid-row: 3;
+    width: 300px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
 .top {
     position: fixed;
 }
 .bottom {
     position: fixed;
-    right: 100px;
+    right: -200px;
 }
 .wrapper {
     display: grid;
 }
-.h1 {
-    grid-column: 1;
-    grid-row: 1;
-    width: 20px;
-    font-weight: 900;
-    color: hsl(300, 43%, 22%);
-}
 .descr {
-    grid-column: 1;
-    grid-row: 2;
+    grid-column: 2;
+    grid-row: 4;
+    width: 500px;
     color:hsl(303, 10%, 53%);
     font-size: 15px;
+    font-weight: 400;
 }
 .anne {
-    grid-column: 1;
-    grid-row: 7;
+    grid-column: 3;
+    grid-row: 5;
     font-size: 15px;
 }
 .colton {
     grid-column: 2;
-    grid-row: 10;
+    grid-row: 5;
     font-size: 15px;
 }
 .irene {
@@ -62,9 +63,11 @@ body {
 }
 
 p{
-    width: 20%;
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid gray;
+    width: 300px;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 15px;
+    background: hsl(300, 43%, 22%);
+    color: white;
     font-size: 15px;
 }
