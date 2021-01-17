@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Spartan);
+
+body {
+    background-color:white;
+    font-family: 'Spartan', sans-serif;
+  }
+.top {
+    position: fixed;
+}
+.bottom {
+    position: fixed;
+    right: 100px;
+}
+.wrapper {
+    display: grid;
+}
+.head {
+    grid-column: 1;
+    grid-row: 1;
+    width: 20px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.descr {
+    grid-column: 1;
+    grid-row: 2;
+    color:hsl(303, 10%, 53%);
+    font-size: 15px;
+}
+.anne {
+    grid-column: 1;
+    grid-row: 7;
+    font-size: 15px;
+}
+.colton {
+    grid-column: 2;
+    grid-row: 10;
+    font-size: 15px;
+}
+.irene {
+    grid-column: 3;
+    grid-row: 7;
+    
+}
+.rev1 {
+    grid-column: 8;
+    grid-row: 1;
+    font-size: 15px;
+
+}
+.rev2 {
+    grid-column: 8;
+    grid-row: 2;
+    font-size: 15px;
+
+}
+.rev3 {
+    grid-column: 8;
+    grid-row: 3;
+    font-size: 15px;
+
+}
+
+p{
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid gray;
+    font-size: 15px;
+}
