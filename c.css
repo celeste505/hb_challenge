@@ -18,9 +18,6 @@ body {
 }
 .wrapper {
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto auto auto;
-    grid-auto-rows: auto;
     grid-gap: 20px;
     margin: 20px;
     padding: 50px;
@@ -29,34 +26,50 @@ body {
     font-weight: 500;
     font-size: 15px;
 }
-.h1 {
-    grid-column: 1;
-    grid-row: 1;
+p{
     width: 300px;
+    height: 200px;
+    margin: 2px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgb(184, 183, 183);
+    border-radius: 15px;
+    background: hsl(300, 43%, 22%);
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.h1 {
+    grid-column:1;
+    grid-row: 1;
+    width: 400px;
     font-weight: 700;
+    font-size: 50px;
     color: hsl(300, 43%, 22%);
 }
 .descr {
-    grid-column: 1;
+    grid-column: 1/-1;
     grid-row: 2;
     color:hsl(303, 10%, 53%);
+ 
 }
 .anne {
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 4;
 }
 .colton {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 4;
 } 
+
 .irene {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 4;
     
 }
 .rev1 {
-    grid-column:2/span 3;
-    grid-row: 1;
+    box-shadow: 10px 10px 5px rgb(184, 183, 183);
+    grid-column:1;
+    grid-row: 3;
     margin: 5px;
     padding: 10px;
     height: 20px;
@@ -67,8 +80,9 @@ body {
     border-radius: 15px;
 }
 .rev2 {
-    grid-column:2/span 3;
-    grid-row: 2;
+    box-shadow: 10px 10px 5px rgb(184, 183, 183);
+    grid-column:2;
+    grid-row: 3;
     margin: 5px;
     padding: 10px;
     height: 20px;
@@ -79,8 +93,9 @@ body {
     border-radius: 15px;
 }
 .rev3 {
-    grid-column:4;
-    grid-row: 1;
+    box-shadow: 10px 10px 5px rgb(184, 183, 183);
+    grid-column:3;
+    grid-row: 3;
     margin: 5px;
     padding: 10px;
     height: 20px;
@@ -98,12 +113,3 @@ body {
     width: 50px;
 }
 
-p{
-    width: 300px;
-    margin: 2px;
-    padding: 25px;
-    border-radius: 15px;
-    background: hsl(300, 43%, 22%);
-    color: white;
-    font-size: 15px;
-}
