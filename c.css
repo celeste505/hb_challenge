@@ -39,9 +39,6 @@ p{
     color: white;
     font-size: 15px;
 }
-.box:hover {
-    opacity: 0.6;
-}
 .h1 {
     grid-column:1;
     grid-row: 1;
